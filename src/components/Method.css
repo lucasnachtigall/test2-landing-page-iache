@@ -1,0 +1,124 @@
+.method {
+  background: linear-gradient(180deg, var(--color-bg-secondary) 0%, var(--color-bg) 100%);
+}
+
+.method h2 {
+  max-width: 750px;
+  margin-bottom: var(--spacing-xl);
+}
+
+.method-content {
+  max-width: 800px;
+}
+
+.intro-text {
+  font-size: 1.3rem;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-md);
+}
+
+.highlight-statement {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin-bottom: var(--spacing-xl);
+  color: var(--color-text-secondary);
+}
+
+.highlight-statement strong {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.services-list {
+  background: var(--color-bg-secondary);
+  border: 2px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+}
+
+.service-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md) 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 1.15rem;
+  color: var(--color-text);
+  transition: var(--transition);
+}
+
+.service-item:last-child {
+  border-bottom: none;
+}
+
+.service-item:hover {
+  color: var(--color-accent);
+  transform: translateX(5px);
+}
+
+.service-icon {
+  color: var(--color-accent);
+  font-weight: bold;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+}
+
+.method-goal {
+  background: rgba(0, 217, 255, 0.05);
+  border-left: 4px solid var(--color-accent);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+  border-radius: var(--border-radius);
+}
+
+.goal-title {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.goal-statement {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.closing-line {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-accent);
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid var(--color-border);
+}
+
+@media (max-width: 768px) {
+  .intro-text {
+    font-size: 1.15rem;
+  }
+
+  .highlight-statement {
+    font-size: 1.1rem;
+  }
+
+  .services-list {
+    padding: var(--spacing-md);
+  }
+
+  .service-item {
+    font-size: 1rem;
+    padding: var(--spacing-sm) 0;
+  }
+
+  .goal-statement {
+    font-size: 1.25rem;
+  }
+
+  .closing-line {
+    font-size: 1.3rem;
+  }
+}

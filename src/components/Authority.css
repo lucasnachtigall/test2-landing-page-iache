@@ -1,0 +1,143 @@
+.authority {
+  background: linear-gradient(180deg, var(--color-bg-secondary) 0%, var(--color-bg) 100%);
+}
+
+.authority h2 {
+  max-width: 850px;
+  margin-bottom: var(--spacing-xl);
+}
+
+.authority-content {
+  max-width: 800px;
+}
+
+.intro {
+  font-size: 1.3rem;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-xl);
+  font-weight: 500;
+}
+
+.scenarios {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+}
+
+.scenario {
+  background: var(--color-bg-secondary);
+  border-left: 3px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+}
+
+.scenario p {
+  font-size: 1.15rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.scenario .consequence {
+  font-size: 1.2rem;
+  color: var(--color-text);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.main-statement {
+  background: rgba(0, 217, 255, 0.08);
+  border: 2px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+  text-align: center;
+}
+
+.main-statement p {
+  font-size: 1.5rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.main-statement strong {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.detail-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: var(--spacing-lg) 0;
+}
+
+.promise-box {
+  background: var(--color-bg-secondary);
+  border: 2px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+}
+
+.promise-title {
+  font-size: 1.3rem;
+  color: var(--color-text);
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+}
+
+.promise-statement {
+  font-size: 1.15rem;
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+  margin: 0;
+}
+
+.final-message {
+  font-size: 1.25rem;
+  color: var(--color-text);
+  text-align: center;
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid var(--color-border);
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    font-size: 1.15rem;
+  }
+
+  .scenario {
+    padding: var(--spacing-md);
+  }
+
+  .scenario p {
+    font-size: 1rem;
+  }
+
+  .scenario .consequence {
+    font-size: 1.1rem;
+  }
+
+  .main-statement p {
+    font-size: 1.2rem;
+  }
+
+  .detail-text {
+    font-size: 1.05rem;
+  }
+
+  .promise-title {
+    font-size: 1.15rem;
+  }
+
+  .promise-statement {
+    font-size: 1rem;
+  }
+
+  .final-message {
+    font-size: 1.1rem;
+  }
+}
